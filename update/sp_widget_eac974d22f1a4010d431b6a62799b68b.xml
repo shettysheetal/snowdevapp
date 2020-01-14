@@ -9,7 +9,7 @@
         <description/>
         <docs/>
         <field_list/>
-        <has_preview>false</has_preview>
+        <has_preview>true</has_preview>
         <id>notes_list</id>
         <internal>false</internal>
         <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
@@ -23,14 +23,31 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-01-14 11:18:32</sys_created_on>
         <sys_id>eac974d22f1a4010d431b6a62799b68b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Notes List</sys_name>
         <sys_package display_value="Test App" source="x_264406_test_app">0c2357b92f9a0010d431b6a62799b6d0</sys_package>
         <sys_policy/>
         <sys_scope display_value="Test App">0c2357b92f9a0010d431b6a62799b6d0</sys_scope>
         <sys_update_name>sp_widget_eac974d22f1a4010d431b6a62799b68b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-01-14 11:18:32</sys_updated_on>
-        <template><![CDATA[<div><!-- your widget template --></div>]]></template>
+        <sys_updated_on>2020-01-14 12:52:41</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+  <form>
+  <div class="form-group">
+    <label for="noteslist">Notes List</label>
+  </div>
+  
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+  
+</div>]]></template>
     </sp_widget>
 </record_update>
